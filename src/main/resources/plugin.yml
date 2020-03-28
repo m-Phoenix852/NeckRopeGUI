@@ -1,0 +1,36 @@
+main: com.ThunderKofy.NeckRopeGUI
+name: NeckRopeGUI
+author: Phoenix852
+website: https://discord.gg/bFX2Vgv
+version: 1.0.0
+api-version: 1.13
+prefix: ThunderKofy | NeckRopeGUI
+commands:
+  suicide:
+    aliases: [neckrope, die]
+    description: Opens up the suicide inventory GUI.
+    permission: Suicide.*
+    default: false
+    permission-message: "§4You are not permitted to perform this command! If you think this is an server-side error, please contact the administrators!"
+  neckropegui:
+    aliases: [nrgui]
+    default: op
+    description: "All commands for NeckRopeGUI."
+    permission: NeckRopeGUI.*
+permissions:
+  #Suicide perms
+  Suicide.normal:
+    description: Access to normal suicide.
+  Suicide.lightning:
+    description: Access to lightning suicide.
+  Suicide.burn:
+    description: Access to burn suicide.
+  #Plugin perms
+  NeckRopeGUI.main:
+    description: The main command for NeckRopeGUI.
+  NeckRopeGUI.help:
+    description: The help command for NeckRopeGUI.
+  NeckRopeGUI.reload:
+    description: The reload command for NeckRopeGUI.
+  NeckRopeGUI.author:
+    description: The author command for NeckRopeGUI.

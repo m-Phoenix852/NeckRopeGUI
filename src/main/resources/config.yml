@@ -1,0 +1,10 @@
+#Messages to broadcast on suicide
+suicide-message:
+  normal: "%PLAYER% committed a neck rope!"
+  lightning: "%PLAYER% decided to smite himself, rip."
+  burn: "Call the fire fighters! %PLAYER% is on fire!"
+#The list of the suicides that should be enabled. Change it to false if you don't want players to use this suicide type.
+suicides:
+  normal: true
+  lightning: true
+  burn: true
